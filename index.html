@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wealth &amp; Health of Nations</title>
+
+    <!-- Load CSS files -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script>
+      var format = d3.format(",");
+    </script>
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Wealth &amp; Health of Nations</h2>
+      <p>Inspired by Hans Rosling's Gapminder</p>
+
+      <!-- Parent container for the scatterplot -->
+      <div id="chart-area"></div>
+    </div>
+    <div class="tooltip"></div>
+
+
+    <!-- Scatterplot implementation -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
